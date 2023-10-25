@@ -1,0 +1,46 @@
+Creating AWS Account
+
+Sign in to console/Create a free account
+Enter email id and your name
+Verify and set up pwd
+Add your information and do billing on personal
+Enter bank details and 2/- would be deducted and refunded
+Add contact information and verify
+Choose basic(free) plan and sign in is complete
+
+
+Creating EC2(Elastic Compute Cloud) Instance
+
+Seach EC2 in search bar
+Select region(ap south-1)
+Click on Launch instance
+Give instance name
+Select OS[AMI(Amazon Machine Image) which helps in selecting OS/Application]
+Select any AMI acc to your need
+Select any instance type acc to your need
+Create new key pair which is gonna be your SSH Key with .pem format
+In security allow ssh from anywhere but if you add your ip address only that particular machine can access the instance
+In storage configure it like how much you want in your C drive
+Click on Launch Instance 
+
+
+
+Access EC2 Instance in windows
+
+Go to downloads
+enter cmd command
+enter ssh -i (your ssh key)(public DNS which you can find in SSH client)
+type yes 
+You have entered into EC2 instance
+
+Checking EC2 Instance
+
+cat /etc/os-release [will tell your chosen os]
+free -m [will tell chosen RAM]
+lscpu [will tell chosen CPU]
+df -h [will tell chosen memory]
+ip a [will tell your private ip address]
+
+
+OR YOU CAN DO EC2 CONNECT WHICH WILL GIVE ACCESS IN WEB BROWSER
+

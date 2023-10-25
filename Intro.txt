@@ -1,0 +1,14 @@
+Clouud services:
+
+infrastructure as a service(Iaas)
+platfprm as a service(Paas)
+software as a service(Saas)
+
+Pricing:
+
+compute
+storage
+data transfer(download or upload from outside)
+
+Amazon EC2(Elastic Compute Cloud) Instance
+Remotely accessed by SHS key

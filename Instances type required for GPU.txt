@@ -1,0 +1,13 @@
+Instances type required for GPU:
+
+P3
+NVIDIA V100 GPUs(deep learning and machine learning tasks)
+
+G4
+NVIDIA T4 GPUs(graphic intensive applications and machine learning)
+
+P4
+NVIDIA A100 GPUs(machine learning and high performance computing)
+
+G3
+NVIDIA M60 GPUs(graphic intensive applications)

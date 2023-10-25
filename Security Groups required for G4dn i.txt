@@ -1,0 +1,18 @@
+Security Groups required for G4dn instance
+
+Security group name
+Desciption
+VPC(Virtual Private Cloud)          [Common for every security grup]
+
+Basic security group:
+SSH Port22 Access anywhere/My IP address
+
+GPU Workload security group
+
+Blender3D
+TCP Port5005 Access anywhere/My IP address
+UE5
+UDP Port7777-7779, 27900  Acess anywhere/My IP address
+
+Keep the outbound rules by default
+
